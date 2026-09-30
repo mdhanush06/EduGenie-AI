@@ -1,0 +1,42 @@
+# Project Design Phase Phase
+
+## Project Name
+EduGenie – Google Gemini Powered Learning Assistant
+
+## 1. System Architecture
+
+EduGenie follows a web-based client-server architecture.
+
+The major components are:
+
+1. Frontend
+2. FastAPI Backend
+3. AI/LLM Integration
+4. Functional Modules
+
+## 2. Frontend
+
+The frontend provides the user interface.
+
+Technologies:
+
+- HTML
+- CSS
+- JavaScript
+- Jinja2 Templates
+
+The interface allows the student to:
+
+- Select a task
+- Enter educational content
+- Submit the request
+- View the result
+
+## 3. Backend
+
+FastAPI is used as the backend framework.
+
+The main backend file is:
+
+```text
+main.py

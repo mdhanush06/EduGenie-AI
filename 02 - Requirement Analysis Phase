@@ -1,0 +1,86 @@
+# Requirement Analysis Phase
+
+## Project Name
+EduGenie – Google Gemini Powered Learning Assistant
+
+## 1. Purpose
+
+The purpose of EduGenie is to provide students with an AI-powered learning assistant that can answer questions, explain concepts, generate quizzes, summarize content, and recommend learning paths.
+
+## 2. Functional Requirements
+
+### 2.1 Question and Answer
+
+The system should allow students to enter academic questions and receive AI-generated answers.
+
+### 2.2 Concept Explanation
+
+The system should explain difficult topics using simple and understandable language.
+
+### 2.3 Quiz Generation
+
+The system should generate multiple-choice questions based on the provided educational content.
+
+The quiz should contain:
+
+- 3 questions
+- 4 options for each question
+- One correct answer
+- Explanation for the answer
+
+### 2.4 Summarization
+
+The system should summarize educational content while keeping the important information.
+
+### 2.5 Learning Recommendations
+
+The system should generate a structured learning path containing beginner, intermediate, and advanced concepts.
+
+## 3. Non-Functional Requirements
+
+The application should be:
+
+- Easy to use
+- Responsive
+- Reliable
+- Student-friendly
+- Simple to maintain
+- Suitable for local development
+
+## 4. Software Requirements
+
+- Python 3.10 or above
+- FastAPI
+- Uvicorn
+- Jinja2
+- Pydantic
+- Google Gemini API
+- Python-dotenv
+
+## 5. Hardware Requirements
+
+A computer capable of running Python and a modern web browser is sufficient for the application.
+
+## 6. User Requirements
+
+The user should be able to:
+
+1. Open the EduGenie website.
+2. Select a learning task.
+3. Enter the required content.
+4. Submit the request.
+5. View the generated result.
+
+## 7. API Requirements
+
+The backend provides endpoints for:
+
+- `/qa`
+- `/explain`
+- `/quiz`
+- `/summarize`
+- `/learn/recommendations`
+
+## 8. Conclusion
+
+The requirement analysis identifies the functional, non-functional, software, hardware, and user requirements needed to develop EduGenie.

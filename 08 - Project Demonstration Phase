@@ -1,0 +1,16 @@
+# Project Demonstration Phase
+
+## Project Name
+
+EduGenie – Google Gemini Powered Learning Assistant
+
+## Purpose
+
+This phase demonstrates the completed EduGenie application and its major features.
+
+## Application Startup
+
+Run:
+
+```bash
+uvicorn main:app --reload

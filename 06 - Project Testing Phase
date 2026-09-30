@@ -1,0 +1,28 @@
+# Project Testing Phase
+
+## Project Name
+
+EduGenie – Google Gemini Powered Learning Assistant
+
+## Purpose
+
+This phase verifies the functionality of the EduGenie application and its major modules.
+
+## Testing Areas
+
+- Question and Answer
+- Concept Explanation
+- Quiz Generation
+- Summarization
+- Learning Recommendations
+- API functionality
+- Input validation
+
+## Automated Testing
+
+The project contains automated tests inside the `tests` folder.
+
+Install pytest:
+
+```bash
+pip install pytest

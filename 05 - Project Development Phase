@@ -1,0 +1,51 @@
+# Project Development Phase
+
+## Project Name
+
+EduGenie – Google Gemini Powered Learning Assistant
+
+## Overview
+
+This phase contains the complete source code of the EduGenie application.
+
+EduGenie is a Generative AI powered educational assistant designed to support students with different learning activities.
+
+## Main Features
+
+- Question and Answer
+- Concept Explanation
+- Quiz Generation
+- Text Summarization
+- Learning Recommendations
+
+## Backend Files
+
+- `main.py`
+- `config.py`
+- `gemini_client.py`
+- `schemas.py`
+
+## AI Modules
+
+- `qna.py`
+- `explanation.py`
+- `quiz.py`
+- `summary.py`
+- `learning_path.py`
+- `common.py`
+
+## Frontend
+
+The frontend uses:
+
+- HTML
+- CSS
+- JavaScript
+- Jinja2
+
+## Installation
+
+Create a virtual environment:
+
+```bash
+py -3 -m venv .venv
